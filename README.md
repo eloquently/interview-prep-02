@@ -4,6 +4,12 @@ Tools used:
 
 Mocha, Chai, Babel, Babel Preset ES2015
 
+Install dependencies with:
+
+```
+npm install
+```
+
 Run test watcher with:
 
 ```
