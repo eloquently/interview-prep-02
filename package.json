@@ -2,7 +2,7 @@
   "name": "interview-prep-framework",
   "version": "1.0.0",
   "description": "Framework for Eloquently's interview prep exercises",
-  "main": "index.js",
+  "repository": "https://github.com/eloquently/interview-prep-framework.git",
   "scripts": {
     "test": "node_modules/.bin/mocha --compilers js:babel-core/register --recursive",
     "test:watch": "npm run test -- --watch"
