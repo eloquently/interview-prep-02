@@ -4,8 +4,7 @@
   "description": "Framework for Eloquently's interview prep exercises",
   "repository": "https://github.com/eloquently/interview-prep-framework.git",
   "scripts": {
-    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "npm run test -- --watch"
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register"
   },
   "keywords": [
     "mocha",

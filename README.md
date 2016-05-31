@@ -10,8 +10,8 @@ Install dependencies with:
 npm install
 ```
 
-Run test watcher with:
+Run tests with:
 
 ```
-npm run test:watch
+npm test path/to/file.js
 ```
