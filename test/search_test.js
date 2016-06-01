@@ -5,7 +5,7 @@ const shortArr = [4,8,15,16,23,42,64,100,112,1000];
 
 const longArr = []
 
-for(let i = 0; i < 10000; i++) {
+for(let i = 0; i < 100000; i++) {
     longArr.push(i*3);
 }
 
@@ -28,7 +28,7 @@ describe('search algorithms', () => {
                 
                 i++;
             }
-            for(let i of [8000, 9000, 9999]) {
+            for(let i of [50000, 80000, 99999]) {
                 it(`finds ${longArr[i]} in longArr`, () => {
                     expect(fn(i*3, longArr)).to.eq(i);
                 });
