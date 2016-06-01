@@ -6,7 +6,7 @@ export const linearSearch = (needle, haystack) => {
 
 export const binarySearch = (needle, haystack) => {
     const midPoint = Math.floor((haystack.length-1)/2);
-    if(haystack.length == 1) return 0;
+    
     if(needle > haystack[midPoint]) {
         const newArr = haystack.slice(midPoint + 1, haystack.length);
         return midPoint + 1 + binarySearch(needle, newArr);
