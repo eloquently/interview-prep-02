@@ -1,4 +1,4 @@
-This is the testing framework for Eloquently's interview prep series.
+These are the tests files for part 2 of Eloquently's interview prep guide. See the explanation [here](https://eloquent.ly/guides/interview-prep-02).
 
 Tools used:
 
